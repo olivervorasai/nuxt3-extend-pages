@@ -1,0 +1,13 @@
+{
+    "name": "nuxt3-extend-pages",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nuxi dev",
+        "build": "nuxi build",
+        "start": "node .output/server/index.mjs",
+        "lint": "eslint --ext .ts,.js,.vue ."
+    },
+    "devDependencies": {
+        "nuxt3": "3.0.0-27374075.93ef422"
+    }
+}
